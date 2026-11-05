@@ -8,6 +8,123 @@
     <title>Acme App</title>
   </head>
   <body>
-    <!-- Start Coding Here -->
+    <header class="site-header">
+      <a class="brand" href="index.html">Acme<span>.</span></a>
+
+      <nav class="main-nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="home-main">
+      <section class="hero">
+        <div class="eyebrow">🌈 Acme Productivity App</div>
+
+        <h1>Boost Your <span>Productivity</span></h1>
+        <p>Streamline your workflow with our all-in-one productivity app.</p>
+
+        <a class="button hero-button" href="#pricing">Start Free Trial</a>
+      </section>
+
+      <section class="features" id="features">
+        <article class="feature-card card-blue">
+          <div class="feature-icon">🚀</div>
+          <h2>Streamlined Workflows</h2>
+          <p>
+            Automate repetitive tasks and focus on high-impact work with our
+            powerful productivity features.
+          </p>
+        </article>
+
+        <article class="feature-card card-lavender">
+          <div class="feature-icon">📈</div>
+          <h2>Blazing Fast Performance</h2>
+          <p>
+            Experience lightning-fast performance and instant responsiveness
+            with our cutting-edge technology.
+          </p>
+        </article>
+
+        <article class="feature-card card-pink">
+          <div class="feature-icon">😊</div>
+          <h2>Intuitive Interface</h2>
+          <p>
+            Our user-friendly interface makes it easy for anyone to streamline
+            their workflow.
+          </p>
+        </article>
+      </section>
+
+      <div id="pricing"></div>
+    </main>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Acme</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="contact-page">
+    <main class="contact-main">
+      <section class="contact-panel">
+        <h1>Get in Touch</h1>
+
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="John Doe"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="john@example.com"
+            required
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your message..."
+            required
+          ></textarea>
+
+          <button class="button submit-button" type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Acme productivity app ©2024</p>
+
+      <nav>
+        <a href="#faq">FAQ</a>
+        <a href="#terms">Terms</a>
+        <a href="#policy">AI Policy</a>
+        <a href="index.html#pricing">Pricing</a>
+      </nav>
+    </footer>
   </body>
 </html>
